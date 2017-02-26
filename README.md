@@ -1,4 +1,4 @@
-# php-fries
+# PHP AWS - Create instance, create user.
 
 * PHP 7.0.10 and AWS PHP SDK 3.19 are used for getting this task completed
 * No sessions have been used, hence no load on the server
