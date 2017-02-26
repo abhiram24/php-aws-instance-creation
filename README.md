@@ -11,15 +11,15 @@
 # What does this code do for end-user?
 
 * Use POSTMAN or CURL or any HTTP request tool and pass the username and password as POST parameter like shown below:
-        http://localhost:8888/aws/<project_name>
-        form-data
-          username: abhiram
-          password: cool123
+        ** http://localhost:8888/aws/<project_name>
+        **form-data
+          ***username: abhiram
+          ***password: cool123
 * Once submitted:
-    a) Firstly a AWS t2 Micro Instance is created and a private key for the same is downloaded in your box
-    b) Once (a) is successfully completed, the code gets more info about your instance like public IP, private IP etc..
-    c) Information from (b) is passed to then automatically create username and password on the instance created by (1)
-    d) All the information is then posted as JSON response back to user.
+    ** Firstly a AWS t2 Micro Instance is created and a private key for the same is downloaded in your box
+    ** Once (a) is successfully completed, the code gets more info about your instance like public IP, private IP etc..
+    ** Information from (b) is passed to then automatically create username and password on the instance created by (1)
+    ** All the information is then posted as JSON response back to user.
 
 #Thanks
 
