@@ -5,14 +5,13 @@
 * For SSH "phpseclib1.0.3", which is a pure PHP solution is used. [This needs to be downloaded https://sourceforge.net/projects/phpseclib/ and the same path needs to be configured in line #5 of "createUser.php", this is hard-coded.]
 * All settings related to AWS needs to be done in "settings.php" file.
 * The current version of AWS PHP SDK does not support for "waitUntilInstanceRunning" hence a hard wait has been used in "createInstance.php".
-* Procedural style of programming has been used based on complexities and time to deliver parameters involved. (Please do let me know if you want to make this OO, I will convert the same and send it over).
 * To get this working, just unzip the folder inside your Apache or Nginx. (PHP.ini settings related to SSL needs to be uncommented).
 * Basic validations have been provided, but much more can be done.
 
 # What does this code do for end-user?
 
 * Use POSTMAN or CURL or any HTTP request tool and pass the username and password as POST parameter like shown below:
-        http://localhost:8888/aws/suitepad/
+        http://localhost:8888/aws/<project_name>
         form-data
           username: abhiram
           password: cool123
