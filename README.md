@@ -12,7 +12,7 @@
 
 * Use POSTMAN or CURL or any HTTP request tool and pass the username and password as POST parameter like shown below:
         -  http://localhost:8888/aws/<project_name>
-        - form-data
+        -  form-data
          -- username: abhiram
          -- password: cool123
 * Once submitted:
