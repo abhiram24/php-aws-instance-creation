@@ -16,10 +16,10 @@
           *** username: abhiram
           *** password: cool123
 * Once submitted:
-    ** Firstly a AWS t2 Micro Instance is created and a private key for the same is downloaded in your box
-    ** Once (a) is successfully completed, the code gets more info about your instance like public IP, private IP etc..
-    ** Information from (b) is passed to then automatically create username and password on the instance created by (1)
-    ** All the information is then posted as JSON response back to user.
+    - Firstly a AWS t2 Micro Instance is created and a private key for the same is downloaded in your box
+    - Once (a) is successfully completed, the code gets more info about your instance like public IP, private IP etc..
+    - Information from (b) is passed to then automatically create username and password on the instance created by (1)
+    - All the information is then posted as JSON response back to user.
 
 #Thanks
 
