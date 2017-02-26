@@ -1,6 +1,6 @@
 # php-fries
 
-1) PHP 7.0.10 and AWS PHP SDK 3.19 are used for getting this task completed
+## PHP 7.0.10 and AWS PHP SDK 3.19 are used for getting this task completed
 2) No sessions have been used, hence no load on the server
 3) For SSH "phpseclib1.0.3", which is a pure PHP solution is used. [This needs to be downloaded https://sourceforge.net/projects/phpseclib/ and the same path needs to be configured in line #5 of "createUser.php"] (*)
 4) All settings related to AWS needs to be done in "settings.php" file.
