@@ -14,8 +14,8 @@
     - http://localhost:8888/aws/
 -     form data
 
-- username: abhiram
-- password: cool123
+- 		-username: abhiram
+- 		-password: cool123
 
 
 * Once submitted:
