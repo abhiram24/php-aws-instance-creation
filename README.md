@@ -23,6 +23,6 @@
     - Information from (b) is passed to then automatically create username and password on the instance created by (1)
     - All the information is then posted as JSON response back to user.
 
-#Thanks
+# Thanks
 
 * Thanks for amazing community and Doc support from Amazon. Without https://aws.amazon.com/blogs/developer/provision-an-amazon-ec2-instance-with-php/ it would not have been possible
