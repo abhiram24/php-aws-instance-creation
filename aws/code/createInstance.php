@@ -35,7 +35,7 @@ function createAWSInstance($username, $password){
 
     $result = $ec2Client->createSecurityGroup(array(
       'GroupName'   => $securityGroupName,
-      'Description' => 'Suitepad exercise security'
+      'Description' => 'Example exercise security'
   ));
 
   $securityGroupId = $result->get('GroupId');
